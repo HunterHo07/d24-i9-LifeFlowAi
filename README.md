@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# LifeFlowAi: The Proactive AI-Powered Life Assistant
+
+![LifeFlowAi Logo](./public/images/logo.svg)
+
+## About LifeFlowAi
+
+LifeFlowAi is a revolutionary AI-powered assistant that proactively helps users manage both their professional and personal tasks. Unlike traditional task managers or calendar apps that just send reminders, LifeFlowAi anticipates users' needs, automates task preparation, tracks important events, and ensures users are always ready for what's next.
+
+## Key Features
+
+### Proactive Task Automation
+- Automatically prepares research documents and materials for upcoming tasks
+- Generates comprehensive task briefs with all necessary information
+- Prioritizes and organizes tasks intelligently
+
+### Time and Appointment Management
+- Syncs with multiple calendars to track meetings and deadlines
+- Sends smart reminders with preparation checklists
+- Suggests optimal departure times based on location and traffic
+
+### Event and Personal Life Tracking
+- Keeps track of important personal events and commitments
+- Manages bills, subscriptions, and service orders
+- Balances work priorities with personal life obligations
+
+### Job Application Assistance
+- Pre-fills job application forms with data from your CV
+- Tracks application status and follow-up deadlines
+- Prepares for interviews with relevant information
 
 ## Getting Started
 
-First, run the development server:
+### Local Development
 
 ```bash
+# Install dependencies
+npm install
+
+# Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the application.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Technology
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+LifeFlowAi is built with:
+- Next.js 13+ with App Router
+- Modern animation libraries (GSAP, Framer Motion)
+- Interactive 3D elements with Three.js
+- Custom UI components with Tailwind CSS
+- Local storage for data management (MVP phase)
 
-## Learn More
+## Vision
 
-To learn more about Next.js, take a look at the following resources:
+We're building LifeFlowAi to transform how people manage their busy lives. By combining AI automation with intuitive design, we aim to reduce the mental load of keeping track of tasks, appointments, and obligations. Our goal is to give people back their time and mental energy so they can focus on what truly matters.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Roadmap
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+See our [development roadmap](./development.md) for information on upcoming features and improvements.
 
-## Deploy on Vercel
+## Market Research
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+For details on our market analysis and competitive landscape, check out our [research document](./research.md).
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Connect With Us
+
+- Website: [lifeflowai.com](https://lifeflowai.com)
+- Twitter: [@LifeFlowAi](https://twitter.com/lifeflowai)
+- LinkedIn: [LifeFlowAi](https://linkedin.com/company/lifeflowai)
+- Email: contact@lifeflowai.com

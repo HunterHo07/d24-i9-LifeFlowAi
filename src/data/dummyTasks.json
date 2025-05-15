@@ -1,0 +1,132 @@
+{
+  "tasks": [
+    {
+      "id": "task-1",
+      "title": "Client Presentation for XYZ Corp",
+      "dueDate": "2025-05-18T14:00:00",
+      "priority": "high",
+      "status": "pending",
+      "category": "work",
+      "attachments": ["presentation.pptx", "project-brief.pdf"],
+      "notes": "Need to highlight Q2 results and new product roadmap",
+      "preparation": [
+        "Review last quarter's metrics",
+        "Update slides with new product features",
+        "Prepare talking points for Q&A session",
+        "Sync with dev team for technical specifics"
+      ]
+    },
+    {
+      "id": "task-2",
+      "title": "Team Weekly Sync",
+      "dueDate": "2025-05-16T10:00:00",
+      "priority": "medium",
+      "status": "pending",
+      "category": "work",
+      "attachments": ["weekly-agenda.docx", "previous-minutes.pdf"],
+      "notes": "Focus on sprint planning and roadblocks",
+      "preparation": [
+        "Review previous action items",
+        "Prepare sprint backlog overview",
+        "Highlight key metrics and goals",
+        "List any help needed from other teams"
+      ]
+    },
+    {
+      "id": "task-3",
+      "title": "Dentist Appointment",
+      "dueDate": "2025-05-20T09:30:00",
+      "priority": "medium",
+      "status": "pending",
+      "category": "personal",
+      "attachments": ["insurance-card.pdf"],
+      "notes": "Annual checkup and cleaning",
+      "preparation": [
+        "Bring insurance card and ID",
+        "Complete health questionnaire online",
+        "Arrive 15 minutes early for paperwork",
+        "Ask about that sensitive tooth"
+      ]
+    },
+    {
+      "id": "task-4",
+      "title": "Review and Submit Q2 Budget",
+      "dueDate": "2025-05-22T18:00:00",
+      "priority": "high",
+      "status": "in-progress",
+      "category": "work",
+      "attachments": ["q2-budget-draft.xlsx", "department-requests.pdf"],
+      "notes": "Need approval from finance before final submission",
+      "preparation": [
+        "Compare with previous quarter metrics",
+        "Include justification for new expense requests",
+        "Schedule review meeting with finance team",
+        "Prepare variance analysis for key changes"
+      ]
+    },
+    {
+      "id": "task-5",
+      "title": "Kid's Soccer Game",
+      "dueDate": "2025-05-17T10:00:00",
+      "priority": "medium",
+      "status": "pending",
+      "category": "personal",
+      "attachments": ["field-location.jpg"],
+      "notes": "Championship game, bring snacks for the team",
+      "preparation": [
+        "Pack folding chairs and umbrella",
+        "Prepare orange slices and water bottles for the team",
+        "Charge camera battery",
+        "Check if carpool is still on with the Johnsons"
+      ]
+    },
+    {
+      "id": "task-6",
+      "title": "Submit Job Application to Acme Inc",
+      "dueDate": "2025-05-19T23:59:00",
+      "priority": "high",
+      "status": "not-started",
+      "category": "personal",
+      "attachments": ["resume.pdf", "cover-letter.docx"],
+      "notes": "Senior Product Manager position",
+      "preparation": [
+        "Update resume with recent project outcomes",
+        "Tailor cover letter to emphasize relevant experience",
+        "Research company recent news for application",
+        "Prepare answers for common interview questions"
+      ]
+    },
+    {
+      "id": "task-7",
+      "title": "Quarterly Performance Reviews",
+      "dueDate": "2025-05-24T17:00:00",
+      "priority": "high",
+      "status": "not-started",
+      "category": "work",
+      "attachments": ["performance-template.docx", "team-metrics.xlsx"],
+      "notes": "Reviews for 5 team members",
+      "preparation": [
+        "Gather peer feedback for each team member",
+        "Review individual goals and achievements",
+        "Prepare talking points for performance discussions",
+        "Schedule 30-minute sessions with each team member"
+      ]
+    },
+    {
+      "id": "task-8",
+      "title": "Home Internet Service Installation",
+      "dueDate": "2025-05-21T13:00:00",
+      "priority": "medium",
+      "status": "pending",
+      "category": "personal",
+      "attachments": ["service-order.pdf"],
+      "notes": "4-hour installation window from 1-5pm",
+      "preparation": [
+        "Clear access to all rooms where outlets are located",
+        "Make sure someone is home during the entire window",
+        "Have payment method ready for any additional fees",
+        "Test connection on all devices after installation"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,245 @@
+{
+  "events": [
+    {
+      "id": "event-1",
+      "title": "Quarterly Board Meeting",
+      "startDate": "2025-05-25T09:00:00",
+      "endDate": "2025-05-25T11:30:00",
+      "location": "Conference Room A, HQ Building",
+      "attendees": ["CEO", "CFO", "CTO", "Board Members"],
+      "category": "work",
+      "recurring": false,
+      "reminders": [
+        {
+          "type": "prepare",
+          "timeBeforeInMinutes": 1440,
+          "message": "Prepare quarterly report and presentation slides"
+        },
+        {
+          "type": "reminder",
+          "timeBeforeInMinutes": 60,
+          "message": "Quarterly board meeting in 1 hour"
+        }
+      ],
+      "materials": [
+        "Q2 Financial Report",
+        "Product Roadmap Slides",
+        "Strategic Initiatives Document"
+      ]
+    },
+    {
+      "id": "event-2",
+      "title": "Sarah's Birthday Dinner",
+      "startDate": "2025-05-28T18:30:00",
+      "endDate": "2025-05-28T21:00:00",
+      "location": "La Trattoria Restaurant",
+      "attendees": ["Family", "Close Friends"],
+      "category": "personal",
+      "recurring": false,
+      "reminders": [
+        {
+          "type": "prepare",
+          "timeBeforeInMinutes": 2880,
+          "message": "Order birthday cake and pick up gift"
+        },
+        {
+          "type": "reminder",
+          "timeBeforeInMinutes": 120,
+          "message": "Leave in 30 minutes for Sarah's birthday dinner"
+        }
+      ],
+      "materials": [
+        "Birthday Gift",
+        "Birthday Card"
+      ]
+    },
+    {
+      "id": "event-3",
+      "title": "Weekly Team Standup",
+      "startDate": "2025-05-16T09:00:00",
+      "endDate": "2025-05-16T09:30:00",
+      "location": "Zoom Meeting Room",
+      "attendees": ["Development Team", "Product Manager", "Design Lead"],
+      "category": "work",
+      "recurring": true,
+      "recurrencePattern": "WEEKLY",
+      "reminders": [
+        {
+          "type": "prepare",
+          "timeBeforeInMinutes": 60,
+          "message": "Prepare weekly progress report and blockers list"
+        },
+        {
+          "type": "reminder",
+          "timeBeforeInMinutes": 10,
+          "message": "Team standup starts in 10 minutes"
+        }
+      ],
+      "materials": [
+        "Sprint Board Access",
+        "Progress Report"
+      ]
+    },
+    {
+      "id": "event-4",
+      "title": "Doctor's Appointment - Annual Checkup",
+      "startDate": "2025-05-19T11:00:00",
+      "endDate": "2025-05-19T12:00:00",
+      "location": "Dr. Smith's Office, Medical Plaza",
+      "category": "personal",
+      "recurring": false,
+      "reminders": [
+        {
+          "type": "prepare",
+          "timeBeforeInMinutes": 1440,
+          "message": "Fast for 12 hours before blood test"
+        },
+        {
+          "type": "document",
+          "timeBeforeInMinutes": 720,
+          "message": "Bring insurance card and ID"
+        },
+        {
+          "type": "travel",
+          "timeBeforeInMinutes": 45,
+          "message": "Leave for doctor's appointment in 15 minutes"
+        }
+      ],
+      "materials": [
+        "Insurance Card",
+        "Medical History",
+        "List of Current Medications",
+        "Recent Test Results"
+      ]
+    },
+    {
+      "id": "event-5",
+      "title": "Project Alpha Kickoff Meeting",
+      "startDate": "2025-05-17T13:00:00",
+      "endDate": "2025-05-17T15:00:00",
+      "location": "Conference Room B, HQ Building",
+      "attendees": ["Project Team", "Stakeholders", "Client Representatives"],
+      "category": "work",
+      "recurring": false,
+      "reminders": [
+        {
+          "type": "prepare",
+          "timeBeforeInMinutes": 1440,
+          "message": "Review project brief and prepare kickoff presentation"
+        },
+        {
+          "type": "reminder",
+          "timeBeforeInMinutes": 120,
+          "message": "Project kickoff meeting in 2 hours, finalize slides"
+        }
+      ],
+      "materials": [
+        "Project Brief",
+        "Timeline Document",
+        "Budget Overview",
+        "Resource Allocation Plan"
+      ]
+    },
+    {
+      "id": "event-6",
+      "title": "Parent-Teacher Conference",
+      "startDate": "2025-05-22T16:30:00",
+      "endDate": "2025-05-22T17:00:00",
+      "location": "Westside Elementary School, Room 103",
+      "attendees": ["Teacher Ms. Johnson", "Parents"],
+      "category": "personal",
+      "recurring": false,
+      "reminders": [
+        {
+          "type": "prepare",
+          "timeBeforeInMinutes": 1440,
+          "message": "Review recent school reports and prepare questions"
+        },
+        {
+          "type": "travel",
+          "timeBeforeInMinutes": 60,
+          "message": "Leave work early for parent-teacher conference"
+        }
+      ],
+      "materials": [
+        "Child's Recent Assignments",
+        "Questions List"
+      ]
+    },
+    {
+      "id": "event-7",
+      "title": "Monthly Bill Payments",
+      "startDate": "2025-05-29T09:00:00",
+      "endDate": "2025-05-29T10:00:00",
+      "category": "personal",
+      "recurring": true,
+      "recurrencePattern": "MONTHLY",
+      "reminders": [
+        {
+          "type": "prepare",
+          "timeBeforeInMinutes": 1440,
+          "message": "Review monthly budget and upcoming expenses"
+        },
+        {
+          "type": "reminder",
+          "timeBeforeInMinutes": 60,
+          "message": "Pay monthly bills today"
+        }
+      ],
+      "bills": [
+        {
+          "name": "Electricity Bill",
+          "amount": 142.65,
+          "dueDate": "2025-05-30"
+        },
+        {
+          "name": "Internet Service",
+          "amount": 89.99,
+          "dueDate": "2025-05-31"
+        },
+        {
+          "name": "Mortgage Payment",
+          "amount": 1850.00,
+          "dueDate": "2025-06-01"
+        },
+        {
+          "name": "Car Insurance",
+          "amount": 125.50,
+          "dueDate": "2025-05-29"
+        }
+      ]
+    },
+    {
+      "id": "event-8",
+      "title": "Interview with ABC Tech",
+      "startDate": "2025-05-18T14:00:00",
+      "endDate": "2025-05-18T15:30:00",
+      "location": "ABC Tech HQ, Downtown",
+      "category": "personal",
+      "recurring": false,
+      "reminders": [
+        {
+          "type": "prepare",
+          "timeBeforeInMinutes": 2880,
+          "message": "Research company and prepare for interview questions"
+        },
+        {
+          "type": "document",
+          "timeBeforeInMinutes": 720,
+          "message": "Print extra copies of resume and portfolio"
+        },
+        {
+          "type": "travel",
+          "timeBeforeInMinutes": 90,
+          "message": "Leave for interview, accounting for traffic"
+        }
+      ],
+      "materials": [
+        "Resume Copies",
+        "Portfolio",
+        "List of References",
+        "Prepared Questions for Interviewer"
+      ]
+    }
+  ]
+}
