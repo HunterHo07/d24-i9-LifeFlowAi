@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="50" viewBox="0 0 200 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Brain Icon with Flow Elements -->
+  <g transform="translate(0, 5) scale(0.9)">
+    <!-- Brain Outline -->
+    <path d="M25 5C18.5 5 14 10.5 14 16C14 18.5 15.5 20.5 17 22C13 23.5 10 27.5 10 32C10 37.5 15 42 21 42C24 42 26.5 41 28.5 39C30.5 41 33 42 36 42C42 42 47 37.5 47 32C47 27.5 44 23.5 40 22C41.5 20.5 43 18.5 43 16C43 10.5 38.5 5 32 5C30 5 28 5.5 26.5 6.5C25 5.5 23 5 25 5Z" stroke="url(#brain-gradient)" stroke-width="2" fill="none"/>
+    
+    <!-- Flow Lines -->
+    <path d="M18 15C25 20 30 15 36 20" stroke="url(#flow-gradient)" stroke-width="1.5" stroke-dasharray="2 2"/>
+    <path d="M15 25C25 30 35 25 42 30" stroke="url(#flow-gradient)" stroke-width="1.5" stroke-dasharray="2 2"/>
+    <path d="M20 35C25 32 32 37 38 33" stroke="url(#flow-gradient)" stroke-width="1.5" stroke-dasharray="2 2"/>
+    
+    <!-- Pulse Circles -->
+    <circle cx="28.5" cy="23" r="2" fill="url(#pulse-gradient)">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="22" cy="28" r="1.5" fill="url(#pulse-gradient)">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="35" cy="28" r="1.5" fill="url(#pulse-gradient)">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="4s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  
+  <!-- Text -->
+  <g transform="translate(55, 30)">
+    <text font-family="Arial, sans-serif" font-weight="bold" font-size="20" fill="url(#text-gradient)">
+      LifeFlow<tspan fill="#6C63FF">Ai</tspan>
+    </text>
+  </g>
+  
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="brain-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3498db"/>
+      <stop offset="100%" stop-color="#6C63FF"/>
+    </linearGradient>
+    
+    <linearGradient id="flow-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3498db"/>
+      <stop offset="100%" stop-color="#6C63FF"/>
+    </linearGradient>
+    
+    <linearGradient id="pulse-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6C63FF"/>
+      <stop offset="100%" stop-color="#3498db"/>
+    </linearGradient>
+    
+    <linearGradient id="text-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3498db"/>
+      <stop offset="70%" stop-color="#3F3D56"/>
+    </linearGradient>
+  </defs>
+</svg>
